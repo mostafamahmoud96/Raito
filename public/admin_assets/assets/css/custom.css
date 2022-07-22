@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
+body {
+    font-family: 'Cairo', sans-serif;
+    font-size: 20px;
+}
+
+.min-width {
+    min-height: 44rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Cairo', sans-serif;
+    letter-spacing: 0 !important;
+}
+
+.order_table {
+    font-weight: bolder;
+    color: #3e3c3c;
+}
+
+#customer_table td{
+    padding: 1px;
+    padding-right: 5px;
+    display: flex-row;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation {
+    font-family: 'Cairo', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: .2px;
+}
+
+.filters {
+    float: left;
+    margin-right: 5px;
+}
+
+.form-control {
+    font-size: 20px;
+}
+
+.btn {
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 1.25;
+    display: inline-block;
+    padding: .75rem 1rem;
+}
+
+.filters a {
+    font-size: 10px;
+    border-radius: 3px;
+    box-shadow: 0 2.5px 10px 0 rgba(0, 0, 0, 0.05);
+    border: 1px solid #bac2c4 !important;
+    padding: 9px;
+    padding-left: 11px;
+    padding-right: 11px;
+    color: #bac2c4 !important;
+    margin-right: 1px;
+    text-align: center;
+}
+
+.filters a img {
+    width: 10px;
+}
+
+.filters a .small {
+    width: 18px;
+}
+
+.filters a label {
+    cursor: pointer;
+}
+
+.filters .dropdown-menu {
+    left: auto;
+}
+
+.filters .dropdown-item {
+    font-size: 14px
+}
+
+div.dataTables_filter input {
+    height: 32px;
+}
+
+div.dataTables_length select {
+    height: 32px;
+}
+
+.icheckbox_square, .iradio_square {
+    background: url(square.png) no-repeat;
+}
+
+@media print {
+    code[class*='language-'], pre[class*='language-'] {
+        text-shadow: none;
+    }
+}
+
+.top-bar {
+    background: #154A9B;
+    color: #fff;
+    padding: 5px 20px;
+}
+
+.top-bar span.user {
+    color: #fff;
+    font-size: 13px;
+    padding-right: 20px;
+    text-align: right;
+}
+
+.top-bar a.logout {
+    color: #fff;
+    font-size: 13px;
+    text-align: left;
+}

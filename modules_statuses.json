@@ -1,0 +1,7 @@
+{
+    "CustomerModule": true,
+    "AdminModule": true,
+    "LayoutModule": true,
+    "ProductModule": true,
+    "OrderModule": true
+}
